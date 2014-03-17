@@ -1,2 +1,0 @@
-testSwing.TestSwing
-TestSwing
