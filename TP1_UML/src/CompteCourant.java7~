@@ -1,0 +1,45 @@
+
+import java.util.ArrayList;
+
+public class CompteCourant extends Compte {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.AE58B768-B0FA-C564-14E6-4BEE79E84ABE]
+    // </editor-fold> 
+    protected ArrayList<Transaction> transcations;
+
+    protected ArrayList<Transaction> transactions;
+
+    public CompteCourant (double tauxInteret, double sold) {
+        super(tauxInteret, sold);
+    }
+
+    public double retreat (double debit) {
+        if(this.sold > debit){
+            this.sold -= debit;
+            System.out.println("Vous avez débité : "+debit);
+            return debit;
+        }
+        return 0;
+    }
+
+    @Override
+    public void getSold () {
+        System.out.println("Le solde de votre Compte courant est de "+this.sold);
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.10E5AC8B-9BE8-5B94-ED87-2B89FFFE8279]
+    // </editor-fold> 
+    public ArrayList<Transaction> getTranscations () {
+        return transcations;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.95CC31FB-7569-08BD-E998-77973814D897]
+    // </editor-fold> 
+    public void setTranscations (ArrayList<Transaction> val) {
+        this.transcations = val;
+    }
+
+}

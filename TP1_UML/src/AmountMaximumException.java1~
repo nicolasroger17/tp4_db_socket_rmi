@@ -1,0 +1,11 @@
+
+public class AmountMaximumException extends AmountException {
+
+    public AmountMaximumException () {
+    }
+
+    public void displayException () {
+    }
+
+}
+

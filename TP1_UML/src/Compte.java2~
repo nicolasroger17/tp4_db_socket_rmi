@@ -1,0 +1,30 @@
+public abstract class Compte {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.48203071-B5B1-0AA0-0C30-1EBAEDBB396C]
+    // </editor-fold> 
+    private int tauxInteret;
+
+    private final int TAUX_INTERET;
+    protected int sold;
+
+    public Compte (int tauxInteret, int sold) {
+        this.TAUX_INTERET = tauxInteret;
+        this.sold = sold;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.7F374556-5E1C-AA69-04D2-B4CD57FD4EFA]
+    // </editor-fold> 
+    public void getSold () {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.851CF9FB-31C0-C950-4A68-054603987038]
+    // </editor-fold> 
+    public void setSold (int val) {
+        this.sold = val;
+    }
+
+}
+

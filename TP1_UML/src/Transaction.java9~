@@ -1,0 +1,24 @@
+
+public class Transaction {
+
+    protected String reason;
+    private double value;
+    private boolean isRetreat;
+    private double sold;
+
+    public Transaction (double value, boolean isRetreat) {
+    }
+
+    public double getSold () {
+        return sold;
+    }
+
+    public void setSold (double val) {
+        this.sold = val;
+    }
+
+    protected void toString () {
+    }
+
+}
+

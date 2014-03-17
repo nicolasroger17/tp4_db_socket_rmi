@@ -1,0 +1,23 @@
+
+public class AmountException {
+
+    private double amount;
+
+    private double cap;
+
+    public AmountException (double sold, double amount) {
+    }
+
+    public double getAmount () {
+        return amount;
+    }
+
+    public void setAmount (double val) {
+        this.amount = val;
+    }
+
+    public void displayException () {
+    }
+
+}
+

@@ -1,0 +1,48 @@
+
+public class Transaction {
+
+    protected String reason;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.4B2FAF1F-77AD-F4E3-E54B-AE7613231C27]
+    // </editor-fold> 
+    private double value;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.FD8990F3-8511-83DC-DCF4-5813E82CF25E]
+    // </editor-fold> 
+    private boolean isRetreat;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.D8CB5921-612C-6421-E69D-E3713FFA8F80]
+    // </editor-fold> 
+    private double sold;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.D6D3D523-C103-F232-5E6C-7385F01D9496]
+    // </editor-fold> 
+    public Transaction (double value, boolean isRetreat) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.F0F4C618-7A13-BAFA-E683-E1992118B470]
+    // </editor-fold> 
+    public double getSold () {
+        return sold;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.6C0B1608-9A31-478F-BADC-BCCD5F73BF40]
+    // </editor-fold> 
+    public void setSold (double val) {
+        this.sold = val;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.6D851D70-802B-4D37-82B1-7AC0A2450A6F]
+    // </editor-fold> 
+    protected void toString () {
+    }
+
+}
+

@@ -1,0 +1,11 @@
+public class CompteLDD extends Compte {
+
+    private final int MAX_CAP;
+
+    public CompteLDD (int tauxInteret, int sold, int maxCap) {
+        super(tauxInteret, sold);
+        this.MAX_CAP = maxCap;
+    }
+
+}
+

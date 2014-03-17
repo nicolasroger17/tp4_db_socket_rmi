@@ -1,0 +1,11 @@
+
+public class AmountMinimumException extends AmountException {
+
+    public AmountMinimumException () {
+    }
+
+    public void displayException () {
+    }
+
+}
+

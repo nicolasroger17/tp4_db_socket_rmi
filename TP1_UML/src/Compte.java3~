@@ -1,0 +1,19 @@
+public abstract class Compte {
+
+    private final int TAUX_INTERET;
+    protected int sold;
+
+    public Compte (int tauxInteret, int sold) {
+        this.TAUX_INTERET = tauxInteret;
+        this.sold = sold;
+    }
+
+    public void setSold (int val) {
+        this.sold = val;
+    }
+    
+    public void getSold(){
+        System.out.println("Le solde de votre Compte de "+this.sold);
+    }
+}
+
